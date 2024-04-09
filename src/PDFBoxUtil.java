@@ -100,22 +100,22 @@ public final class PDFBoxUtil {
 		UNICODE_TO_C1_MAP.put(0x0178, 0x9F);
 		// 日本語フォント名から英名への変換マップを初期化
 		FONT_NAME_MAP = new HashMap<String, String>();
-		FONT_NAME_MAP.put("ＭＳ明朝", "MS Mincho");
-		FONT_NAME_MAP.put("ＭＳ 明朝", "MS Mincho");
-		FONT_NAME_MAP.put("@ＭＳ明朝", "MS Mincho");
-		FONT_NAME_MAP.put("@ＭＳ 明朝", "MS Mincho");
-		FONT_NAME_MAP.put("ＭＳＰ明朝", "MS PMincho");
-		FONT_NAME_MAP.put("ＭＳ Ｐ明朝", "MS PMincho");
-		FONT_NAME_MAP.put("@ＭＳＰ明朝", "MS PMincho");
-		FONT_NAME_MAP.put("@ＭＳ Ｐ明朝", "MS PMincho");
-		FONT_NAME_MAP.put("ＭＳゴシック", "MS Gothic");
-		FONT_NAME_MAP.put("ＭＳ ゴシック", "MS Gothic");
-		FONT_NAME_MAP.put("@ＭＳゴシック", "MS Gothic");
-		FONT_NAME_MAP.put("@ＭＳ ゴシック", "MS Gothic");
-		FONT_NAME_MAP.put("ＭＳＰゴシック", "MS PGothic");
-		FONT_NAME_MAP.put("ＭＳ Ｐゴシック", "MS PGothic");
-		FONT_NAME_MAP.put("@ＭＳＰゴシック", "MS PGothic");
-		FONT_NAME_MAP.put("@ＭＳ Ｐゴシック", "MS PGothic");
+		FONT_NAME_MAP.put("ＭＳ明朝", "MS-Mincho");
+		FONT_NAME_MAP.put("ＭＳ 明朝", "MS-Mincho");
+		FONT_NAME_MAP.put("@ＭＳ明朝", "MS-Mincho");
+		FONT_NAME_MAP.put("@ＭＳ 明朝", "MS-Mincho");
+		FONT_NAME_MAP.put("ＭＳＰ明朝", "MS-PMincho");
+		FONT_NAME_MAP.put("ＭＳ Ｐ明朝", "MS-PMincho");
+		FONT_NAME_MAP.put("@ＭＳＰ明朝", "MS-PMincho");
+		FONT_NAME_MAP.put("@ＭＳ Ｐ明朝", "MS-PMincho");
+		FONT_NAME_MAP.put("ＭＳゴシック", "MS-Gothic");
+		FONT_NAME_MAP.put("ＭＳ ゴシック", "MS-Gothic");
+		FONT_NAME_MAP.put("@ＭＳゴシック", "MS-Gothic");
+		FONT_NAME_MAP.put("@ＭＳ ゴシック", "MS-Gothic");
+		FONT_NAME_MAP.put("ＭＳＰゴシック", "MS-PGothic");
+		FONT_NAME_MAP.put("ＭＳ Ｐゴシック", "MS-PGothic");
+		FONT_NAME_MAP.put("@ＭＳＰゴシック", "MS-PGothic");
+		FONT_NAME_MAP.put("@ＭＳ Ｐゴシック", "MS-PGothic");
 	}
 
 	/**
