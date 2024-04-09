@@ -116,6 +116,13 @@ public final class PDFBoxUtil {
 		FONT_NAME_MAP.put("ＭＳ Ｐゴシック", "MS-PGothic");
 		FONT_NAME_MAP.put("@ＭＳＰゴシック", "MS-PGothic");
 		FONT_NAME_MAP.put("@ＭＳ Ｐゴシック", "MS-PGothic");
+		// Bold,Italic,BoldItalicを追加
+		Set<String> keys = new HashSet<>(FONT_NAME_MAP.keySet());
+		for (String key : keys) {
+			FONT_NAME_MAP.put(key + ",Bold", FONT_NAME_MAP.get(key) + ",Bold");
+			FONT_NAME_MAP.put(key + ",Italic", FONT_NAME_MAP.get(key) + ",Italic");
+			FONT_NAME_MAP.put(key + ",BoldItalic", FONT_NAME_MAP.get(key) + ",BoldItalic");
+		}
 	}
 
 	/**
