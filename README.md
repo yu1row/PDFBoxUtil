@@ -23,7 +23,7 @@ try {
 	
 	// ページの一番下、中央に文字列を追加
 	EnumSet<PDFBoxUtil.TextWritePosition> pos = EnumSet.of(PDFBoxUtil.TextWritePosition.BOTTOM, PDFBoxUtil.TextWritePosition.CENTER);
-	PDFBoxUtil.writeText(doc, page, "Center text.", PDType1Font.HELVETICA, 10, pos, 0, 0);
+	PDFBoxUtil.writeText(doc, page, "Center text", PDType1Font.HELVETICA, 10, pos, 0, 0);
 	
 	// PDFを保存
 	doc.save(outfile);
